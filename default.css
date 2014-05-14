@@ -1,0 +1,13 @@
+div.task_button {
+	width: 40%;
+	height: 40%;
+	border-style: solid;
+	border-radius: 6px;
+	text-align: center;
+}
+
+p.task_button {
+	font-size: large;
+	vertical-align: middle;
+	
+}
