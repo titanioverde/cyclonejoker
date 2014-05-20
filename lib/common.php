@@ -8,3 +8,5 @@ function connect_sql() {
     
     return $con;
 }
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>

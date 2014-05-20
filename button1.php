@@ -9,7 +9,7 @@
 	$statement->execute();
 	$statement->bind_result($text, $color, $firsthour);
 	$statement->fetch();
-	$button = "<div class='task_button' style='background: #$color'>
+	$button = "<div class='task_button' style='background: #$color' data-task='$id'>
 		<p class='task_button'>$text</p>
 	</div>";
 	echo $button;
